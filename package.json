@@ -1,0 +1,44 @@
+{
+  "name": "weddingdb",
+  "version": "0.1.0",
+  "private": true,
+  "main": "server.js",
+  "devDependencies": {
+    "react-scripts": "0.8.5"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.16.0",
+    "boom": "^4.2.0",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "humps": "^2.0.0",
+    "knex": "^0.12.6",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.11.0",
+    "pg": "^6.1.2",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-native-vector-icons": "^4.1.1",
+    "react-redux": "^5.0.2",
+    "redux": "^3.6.0",
+    "superagent": "^3.3.2"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrod28/cap-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hrod28/cap-backend/issues"
+  },
+  "homepage": "https://github.com/hrod28/cap-backend#readme"
+}
